@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-11-arm
+    runs-on: windows-2022
     timeout-minutes: 10080 # diperpanjang, max 7 hari
     env:
       INSTALLER_CACHE_PATH: C:\cached-installers
